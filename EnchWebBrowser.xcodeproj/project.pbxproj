@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDC75951C0706C700DAF7E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC75941C0706C700DAF7E0 /* main.m */; };
+		DDDC75981C0706C700DAF7E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC75971C0706C700DAF7E0 /* AppDelegate.m */; };
+		DDDC759B1C0706C700DAF7E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC759A1C0706C700DAF7E0 /* ViewController.m */; };
+		DDDC759E1C0706C700DAF7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDC759C1C0706C700DAF7E0 /* Main.storyboard */; };
+		DDDC75A01C0706C700DAF7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDC759F1C0706C700DAF7E0 /* Assets.xcassets */; };
+		DDDC75A31C0706C700DAF7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDC75A11C0706C700DAF7E0 /* LaunchScreen.storyboard */; };
+		DDDC75AE1C0706C700DAF7E0 /* EnchWebBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC75AD1C0706C700DAF7E0 /* EnchWebBrowserUITests.m */; };
+		DDDC75BC1C07071400DAF7E0 /* EnchTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC75BB1C07071400DAF7E0 /* EnchTechViewController.m */; };
+		DDDC75BE1C07108800DAF7E0 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDDC75BD1C07108800DAF7E0 /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDC75AA1C0706C700DAF7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDC75881C0706C700DAF7E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDC758F1C0706C700DAF7E0;
+			remoteInfo = EnchWebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDDC75901C0706C700DAF7E0 /* EnchWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnchWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDC75941C0706C700DAF7E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDDC75961C0706C700DAF7E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDC75971C0706C700DAF7E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDDC75991C0706C700DAF7E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDDC759A1C0706C700DAF7E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDDC759D1C0706C700DAF7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDC759F1C0706C700DAF7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDC75A21C0706C700DAF7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDDC75A41C0706C700DAF7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDC75A91C0706C700DAF7E0 /* EnchWebBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnchWebBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDC75AD1C0706C700DAF7E0 /* EnchWebBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnchWebBrowserUITests.m; sourceTree = "<group>"; };
+		DDDC75AF1C0706C700DAF7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDC75BA1C07071400DAF7E0 /* EnchTechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnchTechViewController.h; sourceTree = "<group>"; };
+		DDDC75BB1C07071400DAF7E0 /* EnchTechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnchTechViewController.m; sourceTree = "<group>"; };
+		DDDC75BD1C07108800DAF7E0 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDC758D1C0706C700DAF7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDC75A61C0706C700DAF7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDC75871C0706C700DAF7E0 = {
+			isa = PBXGroup;
+			children = (
+				DDDC75921C0706C700DAF7E0 /* EnchWebBrowser */,
+				DDDC75AC1C0706C700DAF7E0 /* EnchWebBrowserUITests */,
+				DDDC75911C0706C700DAF7E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDC75911C0706C700DAF7E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC75901C0706C700DAF7E0 /* EnchWebBrowser.app */,
+				DDDC75A91C0706C700DAF7E0 /* EnchWebBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDC75921C0706C700DAF7E0 /* EnchWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC75BD1C07108800DAF7E0 /* background.jpg */,
+				DDDC75BA1C07071400DAF7E0 /* EnchTechViewController.h */,
+				DDDC75BB1C07071400DAF7E0 /* EnchTechViewController.m */,
+				DDDC75961C0706C700DAF7E0 /* AppDelegate.h */,
+				DDDC75971C0706C700DAF7E0 /* AppDelegate.m */,
+				DDDC75991C0706C700DAF7E0 /* ViewController.h */,
+				DDDC759A1C0706C700DAF7E0 /* ViewController.m */,
+				DDDC759C1C0706C700DAF7E0 /* Main.storyboard */,
+				DDDC759F1C0706C700DAF7E0 /* Assets.xcassets */,
+				DDDC75A11C0706C700DAF7E0 /* LaunchScreen.storyboard */,
+				DDDC75A41C0706C700DAF7E0 /* Info.plist */,
+				DDDC75931C0706C700DAF7E0 /* Supporting Files */,
+			);
+			path = EnchWebBrowser;
+			sourceTree = "<group>";
+		};
+		DDDC75931C0706C700DAF7E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC75941C0706C700DAF7E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDDC75AC1C0706C700DAF7E0 /* EnchWebBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDC75AD1C0706C700DAF7E0 /* EnchWebBrowserUITests.m */,
+				DDDC75AF1C0706C700DAF7E0 /* Info.plist */,
+			);
+			path = EnchWebBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDC758F1C0706C700DAF7E0 /* EnchWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDC75B21C0706C700DAF7E0 /* Build configuration list for PBXNativeTarget "EnchWebBrowser" */;
+			buildPhases = (
+				DDDC758C1C0706C700DAF7E0 /* Sources */,
+				DDDC758D1C0706C700DAF7E0 /* Frameworks */,
+				DDDC758E1C0706C700DAF7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnchWebBrowser;
+			productName = EnchWebBrowser;
+			productReference = DDDC75901C0706C700DAF7E0 /* EnchWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDC75A81C0706C700DAF7E0 /* EnchWebBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDC75B51C0706C700DAF7E0 /* Build configuration list for PBXNativeTarget "EnchWebBrowserUITests" */;
+			buildPhases = (
+				DDDC75A51C0706C700DAF7E0 /* Sources */,
+				DDDC75A61C0706C700DAF7E0 /* Frameworks */,
+				DDDC75A71C0706C700DAF7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDC75AB1C0706C700DAF7E0 /* PBXTargetDependency */,
+			);
+			name = EnchWebBrowserUITests;
+			productName = EnchWebBrowserUITests;
+			productReference = DDDC75A91C0706C700DAF7E0 /* EnchWebBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDC75881C0706C700DAF7E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = nevermore;
+				TargetAttributes = {
+					DDDC758F1C0706C700DAF7E0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HV3GS74RVV;
+					};
+					DDDC75A81C0706C700DAF7E0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HV3GS74RVV;
+						TestTargetID = DDDC758F1C0706C700DAF7E0;
+					};
+				};
+			};
+			buildConfigurationList = DDDC758B1C0706C700DAF7E0 /* Build configuration list for PBXProject "EnchWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDC75871C0706C700DAF7E0;
+			productRefGroup = DDDC75911C0706C700DAF7E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDC758F1C0706C700DAF7E0 /* EnchWebBrowser */,
+				DDDC75A81C0706C700DAF7E0 /* EnchWebBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDC758E1C0706C700DAF7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC75A31C0706C700DAF7E0 /* LaunchScreen.storyboard in Resources */,
+				DDDC75BE1C07108800DAF7E0 /* background.jpg in Resources */,
+				DDDC75A01C0706C700DAF7E0 /* Assets.xcassets in Resources */,
+				DDDC759E1C0706C700DAF7E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDC75A71C0706C700DAF7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDC758C1C0706C700DAF7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC75BC1C07071400DAF7E0 /* EnchTechViewController.m in Sources */,
+				DDDC759B1C0706C700DAF7E0 /* ViewController.m in Sources */,
+				DDDC75981C0706C700DAF7E0 /* AppDelegate.m in Sources */,
+				DDDC75951C0706C700DAF7E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDC75A51C0706C700DAF7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDC75AE1C0706C700DAF7E0 /* EnchWebBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDC75AB1C0706C700DAF7E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDC758F1C0706C700DAF7E0 /* EnchWebBrowser */;
+			targetProxy = DDDC75AA1C0706C700DAF7E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDDC759C1C0706C700DAF7E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDC759D1C0706C700DAF7E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDDC75A11C0706C700DAF7E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDC75A21C0706C700DAF7E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDC75B01C0706C700DAF7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDC75B11C0706C700DAF7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDC75B31C0706C700DAF7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnchWebBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nevermore.self.EnchWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDDC75B41C0706C700DAF7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnchWebBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nevermore.self.EnchWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDDC75B61C0706C700DAF7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnchWebBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nevermore.self.EnchWebBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnchWebBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDDC75B71C0706C700DAF7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnchWebBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nevermore.self.EnchWebBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnchWebBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDC758B1C0706C700DAF7E0 /* Build configuration list for PBXProject "EnchWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDC75B01C0706C700DAF7E0 /* Debug */,
+				DDDC75B11C0706C700DAF7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDC75B21C0706C700DAF7E0 /* Build configuration list for PBXNativeTarget "EnchWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDC75B31C0706C700DAF7E0 /* Debug */,
+				DDDC75B41C0706C700DAF7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDC75B51C0706C700DAF7E0 /* Build configuration list for PBXNativeTarget "EnchWebBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDC75B61C0706C700DAF7E0 /* Debug */,
+				DDDC75B71C0706C700DAF7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDC75881C0706C700DAF7E0 /* Project object */;
+}
